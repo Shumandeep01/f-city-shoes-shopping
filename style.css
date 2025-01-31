@@ -354,11 +354,11 @@ body{
 #products #top{
     width: 100%;
     height:100%;
-    display: flex;
-    align-items: start;
-    justify-content: center;
     gap:1%;
     padding-top:1%;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 #top #shoes1{
@@ -408,6 +408,7 @@ padding-top: 3%;
     background-position: center;
     background-size: cover;
     padding: 1%;
+    display: inline-block;
 }
 
 #shoes2 button{
@@ -431,6 +432,7 @@ padding-top: 3%;
     background-position: center;
     background-size: cover;
     padding: 1%;
+    display: inline-block;
 }
 
 #shoes3 button{
@@ -454,6 +456,7 @@ padding-top: 3%;
     background-position: center;
     background-size: cover;
     padding: 1%;
+    display: inline-block;
 }
 
 
@@ -1371,18 +1374,270 @@ line-height:10vh;
        margin-top: 0;
     }
 
-    #pg3 #products{
-        white-space: nowrap;
-    }
-
     #pg3 #products #top{
-        display: inline block;
+        height: 100vh;
+        flex-direction: column;
     }
 
-    #top #shoes1{
-        height: 40vh;
-        width: 60vw;
+    #pg3 #products #top #shoes1{
+       height:25vh;
+       width: 80vw;
     }
+
+    #pg3 #products #top #shoes2{
+        height:25vh;
+        width: 80vw;
+     }
+
+     #pg3 #products #top #shoes3{
+        height:25vh;
+        width: 80vw;
+     }
+
+     #pg3 #products #top #shoes4{
+        height:25vh;
+        width: 80vw;
+     }
+
+     #pg3 #products #top #details{
+        display: none;
+     }
+
+
+     #pg4 #products #top{
+        flex-direction: column;
+        height: 100vh;
+        margin-top: 28vh;
+     }
+
+
+     #pg4 #products #top #shoes5{
+        height:25vh;
+        width: 80vw;
+     }
+
+     #pg4 #products #top #shoes6{
+        height:25vh;
+        width: 80vw;
+     }
+
+     #pg4 #products #top #shoes7{
+        height:25vh;
+        width: 80vw;
+     }
+
+     #pg4 #products #top #shoes8{
+        height:25vh;
+        width: 80vw;
+     }
+
+     #pg4 #products #top #details{
+        display: none;
+     }
+
+
+     #pg5 #pg5top{
+        flex-direction: column;
+        margin-top: 20vh;
+     }
+
+     #pg5 #pg5top #left{
+        width: 90%;
+        margin-right:3%;
+     }
+
+     #pg5top #left h3{
+        font-size: 6vw;
+     }
+
+     #pg5top #left h1{
+        font-size: 4vw;
+        margin-top:2vh;
+     }
+
+     #pg5top #left h4{
+        font-size: 6vw;
+        width:50%;
+        margin-top:10vh;
+     }
+
+     #pg5 #pg5top #right{
+        width: 90%;
+        margin-right:3%;
+     }
+
+
+     #pg5top #right h3{
+        font-size: 6vw;
+     }
+
+     #pg5top #right h1{
+        font-size: 4vw;
+        margin-top:2vh;
+     }
+
+     #pg5top #right h4{
+        font-size: 6vw;
+        width:50%;
+        margin-top:10vh;
+     }
+
+
+     #pg5 #pg5btm{
+        height: 100vh;
+        margin-top: 10vh;
+        flex-direction: column;
+     }
+
+     #pg5 #pg5btm #left{
+        width:100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+     }
+
+     #pg5 #pg5btm #left #special{
+        height: 50vh;
+
+     }
+
+     #pg5btm #left #special h2{
+        font-size: 5vw;
+        margin-top:3vh;
+        margin-right:10vw;
+        width: 100%;
+        letter-spacing:1px;
+     }
+
+     #pg5btm #left #special h3{
+        font-size:6vw;
+        margin-right:25vw ;
+        margin-top:33vh;
+        width:70%;
+     }
+
+     #pg5 #pg5btm #right{
+        width: 100vw;
+     }
+
+     #pg5 #pg5btm #right #top{
+        width: 100%;
+        font-size: 9vw;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vh;
+     }
+
+     #pg5 #pg5btm #right #mid{
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+     }
+
+     #pg5btm #right #mid #mleft{
+        width:70%;
+     }
+
+     #pg5btm #right #mid #mleft button{
+        font-size:3vw;
+     }
+
+     #pg5btm #right #mid #mmid{
+        width:70%;
+     }
+
+     #pg5btm #right #mid #mmid button{
+        font-size: 3vw;
+     }
+
+     #pg5btm #right #mid #mright{
+        width:70%;
+     }
+
+     #pg5btm #right #mid #mright button{
+        font-size: 3vw;
+     }
+
+     #pg5 #pg5btm #right #btm{
+        display: none;
+     }
+
+     #pg6{
+        width: 100vw;
+        height: 100vh;
+        margin-top: 75vh;
+     }
+
+     #pg6 #promise{
+        width: 100vw;
+        justify-content: center;
+        gap: 0;
+     }
+
+     #promise #p1{
+        font-size: 3vw;
+     }
+
+     #promise #p1 #icon{
+        font-size: 6vw;
+     }
+
+     #promise #p2{
+        font-size: 3vw;
+     }
+
+     #promise #p2 #icon{
+        font-size: 6vw;
+     }
+
+     #promise #p3{
+        font-size: 3vw;
+     }
+
+     #promise #p3 #icon{
+        font-size: 6vw;
+     }
+
+     #promise #p4{
+        font-size: 3vw;
+        padding-right:4vw;
+     }
+
+     #promise #p4 #icon{
+        font-size: 6vw;
+     }
+
+     #pg6 #instapost{
+         width: 100vw;
+         height: 20vh;
+     }
+
+     #pg6 #instapost img{
+        width:12.1%;
+        height:40%;
+     }
+
+     #pg6 #brands{
+        animation: none;
+        margin-top: 0;
+        display: none;
+     }
+
+     #brands img{
+        width: 15%;
+     }
+
+
+     #pg7 {
+        width: 100vw;
+        height: 100vh;
+        padding-bottom: 100vh;
+        display: none;
+     }
+
+
+
     
 
 
